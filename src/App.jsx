@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import { Copy, Check, Lock, SmartphoneNfc } from 'lucide-react';
 
 // Backend sunucumuzun adresi (Şimdilik lokal, canlıya alınca değişecek)
-const SOCKET_URL = 'http://localhost:5000';
+const SOCKET_URL = 'https://nfcsharebackend.onrender.com/';
 
 function App() {
   // Basit Router Mantığı: URL '/p/' ile başlıyorsa Paylaşım ekranı, yoksa Ana Sayfa
